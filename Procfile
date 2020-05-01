@@ -1,1 +1,1 @@
-web: $(composer config bin-dir)/heroku-php-apache2 codespace/
+web: $(composer config bin-dir)/heroku-php-apache2

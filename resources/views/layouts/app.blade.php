@@ -24,6 +24,7 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     @stack('style')
+
 </head>
 <body>
     <div id="app">
@@ -88,7 +89,7 @@
     <script src="{{ asset('js/app.js') }}"></script>
     @stack('script')
     <script>
-        window.hereAPIKey = "{{ env('HERE_API_KEY') }}"
+        window.hereApiKey = "{{ env('HERE_API_KEY') }}"
     </script>
     <script src="{{ asset('js/here.js') }}"></script>
 </body>
